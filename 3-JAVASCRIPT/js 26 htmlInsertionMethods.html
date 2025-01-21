@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Insertions</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>this is a heading</h1>
+    </div>
+</body>
+<script>
+    let div = document.createElement('div')
+    div.className = "sugar"
+    div.innerHTML = "<span> THIS IS A SPAN </span>"
+    document.body.append(div)
+
+
+
+    let coll = document.getElementById('container');
+    // coll.append(div);//append at the end of node inside the node
+    // coll.prepend(div)//insert at the beginning of node indide the node
+    // coll.before(div)//before and outside the node
+    // coll.after(div)//after and outside the node
+    // coll.replaceWith(div)
+
+</script>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scope and conditionals</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <li>item6</li>
+            <li>item7</li>
+        </ul>
+    </div>
+    <script>
+
+        let a = 'ufukry'
+        console.log(a)
+        console.log(typeof (a));
+        const b = "this cannot be changed";
+        console.log(b)
+        let age = 2
+        if (age > 18) {
+            console.log("you can drink water")
+        }
+        else if (age == 2) {
+            console.log("age is 2")
+        }
+        else {
+            console.log("you can drink cold drink")
+        }
+
+
+
+        const cup = 45;
+        switch (cup) {
+            case 4:
+                console.log("the value of cup is 4")
+                break;
+            case 41:
+                console.log("the value of cup is 41")
+                break;
+            case 43:
+                console.log("the value of cup is 43")
+                break;
+            case 45:
+                console.log("the value of cup is 45")
+                break;
+            default:
+                console.log("the value of cup is none of the above")
+                break;
+        }
+    </script>
+</body>
+
+</html>

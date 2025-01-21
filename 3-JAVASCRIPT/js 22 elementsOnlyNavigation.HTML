@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+</body>
+<script>
+    let b = document.body
+    console.log(b.firstChild)//text as it it not asking for elements
+    console.log(b.firstElementChild)//div
+
+    console.log(b.previousElementSibling)//head
+    console.log(b.nextElementSibling)//null as script goes under the body tag while execution
+    console.log(b.lastElementChild)//this will show script as it goes under the body tag while execution
+
+</script>
+
+</html>

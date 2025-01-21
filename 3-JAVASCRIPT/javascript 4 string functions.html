@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javacsript string functions</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <script>
+        var str = "this is a string"
+        console.log(str);
+
+        var position = str.indexOf('is');
+        console.log(position);
+        
+        position = str.lastIndexOf('is')
+        console.log(position)
+
+        var substr = str.slice(2, 6)
+        console.log(substr)
+
+        var replaced = str.replace('string', 'abhi');
+        console.log(str)
+
+        console.log(replaced)
+
+        console.log(str.toUpperCase())
+        var newstring = str.concat(' new string')
+        console.log(newstring)
+
+        var whitespaces = "     this contsins        whitespaces"
+        console.log(whitespaces)
+
+        console.log(whitespaces.trim());
+    </script>
+</body>
+
+</html>

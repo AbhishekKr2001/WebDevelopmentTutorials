@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+
+<body>
+    <script>
+        let friends = ["rohan", "sohan", "ram", "shyam", "tunu"]
+        friends.forEach((element) => {
+            console.log("hello friends, " + element + " to modern javascript");
+        });
+
+        for (element of friends) {
+            console.log("hello friends, " + element + " to modern javascript again");
+        }
+
+        let employee = {
+            name: "abhishek",
+            salary: 234,
+            channel: "abhishek kumar"
+        }
+        for (key in employee) {
+            console.log(`the ${key} of employee is ${employee[key]}`);
+        }
+    </script>
+</body>
+
+</html>

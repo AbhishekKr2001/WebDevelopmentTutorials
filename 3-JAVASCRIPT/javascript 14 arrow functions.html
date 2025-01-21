@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript arrow functions</title>
+</head>
+
+<body>
+<div class="continer"></div>
+<script>
+    let greet = () => console.log("good morning");//if we declare a varible by let then
+    // it cannot be redeclared 
+    //but if we declare using var then it can be redeclared.
+    greet();
+     
+     let sum= (a,b)=>a+b;
+     sum(3,8);
+     
+     let obj1={
+         greeting : "good mrng",
+         names:["harry","rohan","sohan","rani"],
+         speak(){
+             this.names.forEach((student)=>{
+                 console.log(this.greeting + "kudoon koo " + student);
+             });
+         }
+        }
+        obj1.speak();
+    
+</script>
+</body>
+
+</html>

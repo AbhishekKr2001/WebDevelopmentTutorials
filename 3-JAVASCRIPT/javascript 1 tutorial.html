@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript tutorial</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="contain">
+            This is a row in this container
+        </div>
+        <div class="row" id="contain1">
+            This is a row in this container
+        </div>
+    </div>
+    <script>
+        //write your javascript here
+        console.log('hello world')
+        document.getElementById('contain').outerHTML = 'This is a a outer HTML. '
+        document.getElementById('contain1').innerHTML = 'This is a a inner HTML. '
+    </script>
+</body>
+
+</html>

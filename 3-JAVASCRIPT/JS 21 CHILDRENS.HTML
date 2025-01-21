@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+    <div>
+        <ul id="menu">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+</body>
+<script>
+    //ACCESSING CHILDREN OF AN ELEMENT
+
+    document.getElementsByTagName('li')[3].innerHTML = "HI I AM  AN ENGINEER"
+
+
+    let content = document.getElementById('menu');//ALWAYS USE THIS TECHNIQUE TO TAKE A PARENT ELEMENT
+    let firstChild = content.firstElementChild;
+    let lastChild = content.lastElementChild;
+    let Child = content.childNodes;
+    console.log(firstChild);
+    console.log(lastChild);
+    console.log(Child);
+    console.log(content.hasChildNodes());
+</script>
+
+</html>

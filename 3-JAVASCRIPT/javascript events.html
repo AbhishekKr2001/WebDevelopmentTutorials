@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript events</title>
+
+</head>
+
+<body>
+    <!-- browser events:
+     click
+    contextmenu
+    mouseover/mouseout
+    mousedown/mouseup
+    mousemove
+
+    submit
+    focus -->
+    <div class="container">
+        <h1>this is a heading</h1>
+        <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus esse fugit labore nobis cupiditate
+            doloremque quisquam sit minima, neque vitae accusamus culpa ducimus consequuntur non aliquid suscipit
+            molestias natus nemo beatae aut odio. Eius incidunt provident laudantium reiciendis fugit impedit velit
+            explicabo et, molestias corrupti quidem repudiandae rerum cumque delectus odit. Illo aperiam nobis quo
+            delectus maxime voluptatibus asperiores, voluptatem magnam quidem tenetur provident ad fuga assumenda vel
+            ipsum voluptas, aliquid sapiente dignissimos commodi iste. Fuga vitae nemo nobis perspiciatis, ea accusamus
+            reprehenderit assumenda minus quod beatae ab dolorem fugit voluptates recusandae debitis adipisci, quae
+            quidem laborum nam odit ipsa libero? Minima voluptate illo sapiente. Doloribus perferendis adipisci sit,
+            nemo consectetur explicabo totam voluptatibus aspernatur natus, temporibus corrupti excepturi! Cum aliquid
+            molestiae nobis, eveniet excepturi deserunt a voluptatibus placeat fuga molestias, distinctio aut corporis
+            possimus exercitationem? Illo eum et nam explicabo a ipsa, suscipit minima quis adipisci laborum aut odio
+            molestiae, fugiat recusandae. Reprehenderit dolores similique cumque debitis. Modi doloribus reiciendis quo.
+            A repudiandae iste, omnis laborum dolore consectetur praesentium architecto quia labore, exercitationem
+            voluptas recusandae inventore totam quod, vero minima doloribus suscipit commodi eligendi tenetur id
+            perferendis officiis. Illo sapiente ipsum voluptatem rerum voluptatibus est quia ab enim quasi sunt facere
+            harum animi quam ipsa, nostrum illum blanditiis sequi laboriosam magnam earum. Dolorum similique facere
+            ducimus aliquam inventore. Excepturi aut at dolores fugit itaque saepe iste distinctio consequuntur?
+            Nesciunt tenetur officia adipisci provident.</p>
+           
+    </div>
+    <button id="btn" onclick="togglehide()">show/hide</button>
+    <script>
+        function togglehide(){
+            let btn=document.getElementById('btn');
+            let para=document.getElementById('para');
+            if(para.style.display !='none')
+            {
+                para.style.display='none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

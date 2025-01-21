@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body id="body">
+    <div class="div" id="ide">
+        <ul id="ul1" class="ul">
+            <li class="li">HOME</li>
+            <li class="li">ABOUT</li>
+            <li class="li" id="li2">CONTACT</li>
+            <li class="li">SERVICES</li>
+            <li class="li">ADDRESS</li>
+        </ul>
+    </div>
+    <section>this is a section</section>
+    <script></script>
+
+</body>
+<script>
+    // walking the DOM
+
+    // let coll = document.getElementsByClassName("ul");
+    // console.log(coll);
+    // document.getElementsByClassName("li")[3].style.color = "red";
+    // document.getElementsByClassName('li')[3].innerHTML = "FEATURES"
+
+    //OPERATIONS IN BODY
+
+    // document.body.style.backgroundColor = "blue";
+
+
+    // alert(document.body.id); // shows "Body" as the id.
+    // const aNewBodyElement = document.createElement("body");
+    // aNewBodyElement.id = "newBodyElement";
+    // document.body = aNewBodyElement;
+    // alert(document.body.id); // "newBodyElement"
+
+
+    //OPERATIONS IN HEAD
+
+    // console.log(document.getElementsByTagName('li')[1])//to access the second element of the meta tag
+    // const theHead = document.head;
+    // console.log(theHead.firstElementChild)//first child of head is meta
+    // console.log(theHead.lastElementChild)//title
+    // console.log(theHead.firstChild)//text
+    // console.log(theHead.lastChild)//text
+    // console.log(theHead)
+    // console.log(theHead.id); // "my-document-head";
+    // console.log(theHead === document.querySelector("head")); // true
+    // const new1 = document.getElementsByTagName('title')//returns a collection
+    // console.log(new1);
+    // new1.id = "heading"
+    // document.head = new1
+
+
+    const test = document.body;
+    console.log(test);
+    console.log(test.firstElementChild);
+    console.log(test.lastElementChild);
+    console.log(test.firstChild);
+    console.log(test.lastChild);
+</script>
+
+</html>

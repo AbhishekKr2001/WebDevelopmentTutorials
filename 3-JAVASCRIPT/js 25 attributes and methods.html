@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box" class="container" hidden="false">
+
+    </div>
+</body>
+<script>
+    let coll = document.getElementById('box')
+    console.log(coll.hasAttribute('hidden'))
+    console.log(coll.hasAttribute('class'))
+
+    console.log(coll.getAttribute('class'))
+
+    coll.setAttribute('class', 'ka')
+    console.log(coll.attributes)
+</script>
+
+</html>

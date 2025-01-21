@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript settimeout and clear time out</title>
+</head>
+
+<body>
+    <div class="container" id="time">
+        This is a container <span>This is a span</span>
+    </div>
+    <script>
+        console.log("This is a tutorial")
+        function greet() {
+            console.log("Hello goood morning")
+
+        }
+        setTimeout(greet, 5000);
+        function displaytime() {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time; //this will hide the content inside time id in HTML
+        }
+        setInterval(displaytime, 2000);
+    </script>
+</body>
+
+</html>

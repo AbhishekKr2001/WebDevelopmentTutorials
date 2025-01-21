@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript strings and strings variable</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is a heading</h1>
+        <div id="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus accusamus quisquam delectus cum quasi,
+                sunt optio, voluptatum natus itaque dolorem modi sed doloribus rem, nam ducimus quis quaerat provident
+                consequatur?</p>
+        </div>
+        <div id="content1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus accusamus quisquam delectus cum quasi,
+                sunt optio, voluptatum natus itaque dolorem modi sed doloribus rem, nam ducimus quis quaerat provident
+                consequatur?</p>
+        </div>
+
+    </div>
+    <script>
+        var string = 'this"s';
+        var name = "abhishek";
+        var channel = "abhishek kumar";
+        var message = "he is a goood cricketer";
+        var temp = `${name} is a nice person ${string} and his channel name is ${channel}`
+        console.log(temp);
+        var len = name.length;
+        console.log(`length of name is ${len}`)
+        console.log("hello world\n abhishek")
+        document.getElementById('content').innerHTML = ' This has been added from script tag';
+
+        document.getElementById('content1').outerHTML = ' This has been added from outer HTML ';
+    </script>
+</body>
+
+</html>
