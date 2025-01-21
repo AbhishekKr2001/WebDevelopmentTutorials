@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 232px;
+            display: block;
+            margin: auto;
+        }
+#box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+
+}
+#box:hover{
+    background-color: darkcyan;
+}
+    </style>
+</head>
+<body>
+    <h3>this is css transition tutorial</h3>
+    <div class="container">
+        <div id="box">
+            this is my box
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid4</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 3px;
+            grid-template-areas: 'navbar navbar navbar navbar'
+                'section section section aside';
+        }
+
+        .box {
+            background-color: chartreuse;
+            border: 2px solid blueviolet;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #section {
+            grid-area: section;
+        }
+
+        #aside {
+            grid-area: aside;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="box">navbar</div>
+        <div id="section" class="box">section</div>
+        <div id="aside" class="box">aside</div>
+        <div class="box">this is a box1</div>
+        <div class="box">this is a box2</div>
+        <div class="box">this is a box3</div>
+        <div class="box">this is a box4</div>
+        <div class="box">this is a box5</div>
+        <div class="box">this is a box6</div>
+        <div class="box">this is a box7</div>
+        <div class="box">this is a box8</div>
+        <div class="box">this is a box9</div>
+        <div class="box">this is a box10</div>
+        <div class="box">this is a box11</div>
+        <div class="box">this is a box12</div>
+    </div>
+</body>
+
+</html>

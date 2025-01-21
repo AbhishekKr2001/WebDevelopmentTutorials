@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid2</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(4, 3fr);
+            grid-column-gap: 1rem;
+            grid-row-gap: 1rem;
+        }
+
+        .box {
+            background-color: saddlebrown;
+            border: 2px solid greenyellow;
+            padding: 3px;
+        }
+
+        /* .box:first-child{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">This is a box1</div>
+        <div class="box">This is a box2</div>
+        <div class="box">This is a box3</div>
+        <div class="box">This is a box4</div>
+        <div class="box">This is a box5</div>
+        <div class="box">This is a box6</div>
+        <div class="box">This is a box7</div>
+        <div class="box">This is a box8</div>
+        <div class="box">This is a box3</div>
+        <div class="box">This is a box4</div>
+        <div class="box">This is a box5</div>
+        <div class="box">This is a box6</div>
+        <div class="box">This is a box7</div>
+        <div class="box">This is a box8<div>
+
+            </div>
+</body>
+
+</html>
