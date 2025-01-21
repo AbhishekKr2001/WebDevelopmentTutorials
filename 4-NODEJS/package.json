@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "this is a package built by self",
+  "main": "Node 1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^2.1.1",
+    "mongodb": "^4.13.0",
+    "nodemailer": "^6.9.0",
+    "upper-case": "^2.0.2"
+  }
+}
